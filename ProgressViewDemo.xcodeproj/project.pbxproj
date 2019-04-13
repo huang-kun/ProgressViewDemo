@@ -14,6 +14,7 @@
 		1AD3348E2261B6CC00273B90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AD3348C2261B6CC00273B90 /* LaunchScreen.storyboard */; };
 		1AD334992261B6CC00273B90 /* ProgressViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD334982261B6CC00273B90 /* ProgressViewDemoTests.swift */; };
 		1AD334A42261B6CC00273B90 /* ProgressViewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD334A32261B6CC00273B90 /* ProgressViewDemoUITests.swift */; };
+		1AD334B22261B6F200273B90 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD334B12261B6F200273B90 /* ProgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1AD3349F2261B6CC00273B90 /* ProgressViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProgressViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AD334A32261B6CC00273B90 /* ProgressViewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewDemoUITests.swift; sourceTree = "<group>"; };
 		1AD334A52261B6CC00273B90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AD334B12261B6F200273B90 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				1AD334832261B6CB00273B90 /* AppDelegate.swift */,
 				1AD334852261B6CB00273B90 /* ViewController.swift */,
+				1AD334B12261B6F200273B90 /* ProgressView.swift */,
 				1AD334872261B6CB00273B90 /* Main.storyboard */,
 				1AD3348A2261B6CC00273B90 /* Assets.xcassets */,
 				1AD3348C2261B6CC00273B90 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				1AD334862261B6CB00273B90 /* ViewController.swift in Sources */,
 				1AD334842261B6CB00273B90 /* AppDelegate.swift in Sources */,
+				1AD334B22261B6F200273B90 /* ProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +439,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3S67G6A35R;
 				INFOPLIST_FILE = ProgressViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +458,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3S67G6A35R;
 				INFOPLIST_FILE = ProgressViewDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
